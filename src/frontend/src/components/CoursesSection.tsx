@@ -33,10 +33,10 @@ const courses = [
   {
     icon: FlaskConical,
     subject: "Chemistry",
-    classes: "Class 11 & 12",
+    classes: "Class 9, 10, 11 & 12",
     color: "bg-green-50 text-green-700",
     iconBg: "bg-green-100",
-    teachers: ["Atul Chaturvedi"],
+    teachers: ["Atul Chaturvedi (Cl. 11-12)", "Vishal Sir (Cl. 9-10)"],
     highlights: [
       "Organic Chemistry",
       "Inorganic & Physical Chem",
@@ -47,15 +47,15 @@ const courses = [
   {
     icon: Leaf,
     subject: "Biology",
-    classes: "Class 9 & 10",
+    classes: "Class 9, 10, 11 & 12",
     color: "bg-emerald-50 text-emerald-700",
     iconBg: "bg-emerald-100",
-    teachers: ["Jyoti Hasija"],
+    teachers: ["Dr. Jyoti Hasija"],
     highlights: [
       "Cell Biology & Genetics",
       "Human Physiology",
       "Plant Science",
-      "NCERT + Board Focus",
+      "NCERT + Board & NEET Focus",
     ],
   },
 ];

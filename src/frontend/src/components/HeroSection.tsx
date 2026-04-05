@@ -41,7 +41,7 @@ export default function HeroSection() {
       />
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-24">
-        <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+        <div className="max-w-3xl">
           {/* Left column */}
           <motion.div
             initial={{ opacity: 0, y: 32 }}
@@ -53,11 +53,17 @@ export default function HeroSection() {
               <br />
               <span className="text-orange">Classes 9 to 12</span>
             </h1>
-            <p className="text-white/75 text-lg leading-relaxed mb-8 max-w-lg">
-              Expert coaching in Mathematics, Physics, Chemistry &amp; Biology
-              by experienced faculty from IIT Kanpur &amp; NIT Jalandhar. Small
-              batches, personalised attention — available both online and
-              offline.
+            <p className="text-white/75 text-lg leading-relaxed mb-8 max-w-2xl">
+              We offer a conducive atmosphere where studies yield concrete
+              outcomes for students from Class 9 through Class 12, particularly
+              with a special focus on Class 10 Boards, JEE Main, JEE Advanced,
+              and NEET. This is achieved by incorporating smaller batch sizes,
+              individual attention, and concept-based teaching to ensure that
+              students understand the subject matter fully. Through periodic
+              testing, resolving doubts, and mentoring, progress can be
+              effectively monitored, and self-confidence can be built. In such
+              an atmosphere, students can gain clarity, build strong
+              fundamentals, and develop a winning attitude.
             </p>
             <div className="flex flex-wrap gap-4">
               <button
@@ -77,37 +83,6 @@ export default function HeroSection() {
               >
                 View Courses
               </button>
-            </div>
-          </motion.div>
-
-          {/* Right column — classroom image */}
-          <motion.div
-            initial={{ opacity: 0, scale: 0.96 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
-            className="relative hidden lg:block"
-          >
-            <div className="relative rounded-2xl overflow-hidden shadow-2xl ring-1 ring-white/10">
-              <img
-                src="/assets/generated/hero-classroom.dim_800x500.jpg"
-                alt="A² Coaching Classes students studying"
-                className="w-full h-80 lg:h-96 object-cover"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-navy/60 to-transparent" />
-              {/* Floating badge */}
-              <div className="absolute bottom-5 left-5 bg-white rounded-xl px-4 py-3 shadow-lg flex items-center gap-3">
-                <div className="w-10 h-10 rounded-full bg-orange flex items-center justify-center">
-                  <span className="text-white font-bold text-sm">A²</span>
-                </div>
-                <div>
-                  <p className="font-bold text-navy text-sm">
-                    6 Expert Teachers
-                  </p>
-                  <p className="text-muted-foreground text-xs">
-                    IIT &amp; NIT Alumni
-                  </p>
-                </div>
-              </div>
             </div>
           </motion.div>
         </div>
