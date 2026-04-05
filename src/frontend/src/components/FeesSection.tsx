@@ -23,10 +23,10 @@ const feeRows = [
   {
     id: "all-11-12",
     classes: "Class 11 & 12",
-    subject: "All Subjects (Maths / Physics / Chemistry)",
+    subject: "Per Subject (Maths / Physics / Chemistry / Biology)",
     amount: "₹50,000",
     duration: "Per Year",
-    note: "Full programme",
+    note: "Per subject per year",
     highlight: true,
   },
 ];
